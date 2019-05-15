@@ -14,7 +14,7 @@ h1 {
 }
 
 .wrapper > div {          /* light gold background */
-  background: #f7f7ed;
+  /* background: #f7f7ed; */
   padding: 1em;
 }
 
