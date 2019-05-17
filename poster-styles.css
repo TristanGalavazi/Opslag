@@ -20,7 +20,7 @@ h1 {
 
 .wrapper {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 24vw 1fr;
   grid-template-rows: minmax(100px, auto);
   grid-template-areas: "box1 box2 box3";
   grid-gap: 1em;
@@ -30,18 +30,17 @@ h1 {
 /* @media screen and (min-width: 375px){ */
 
 
-@media screen and (min-width: 376px){
-  .headers{
+@media screen and (min-width: 376px) {
+  .headers {
     display: none;
   }
 }
 
 @media screen and (max-width: 375px) {
 
-  .mobiel-circle{
-    r: 200;
+  .mobiel-circle {
+    r: 215;
   }
-
 
   .wrapper {
     grid-gap: 0em;
@@ -63,8 +62,8 @@ h1 {
     display: none;
   }
 
-  .box-4{
-    display:none;
+  .box-4 {
+    display: none;
   }
 
   .box3 {
@@ -72,11 +71,11 @@ h1 {
     display: none;
   }
 
-  h1{
+  h1 {
     font-size: 30vw;
   }
 
-  .box-7{
+  .box-7 {
     /* margin-top: -100px; */
 
     align-self: start;
@@ -98,15 +97,20 @@ h1 {
 .box3 {
   grid-area: box3;
 }
+.box-4 {
 
-.box-7{
+}
+.box-7 {
   display: grid;
   grid-template-columns: 1fr 1fr ;
   grid-template-rows: minmax(100px, auto);
-
 }
 
-.headers{
+.mobiel-circle {
+  r: 212;
+}
+
+.headers {
   justify-self: center;
   /* align-self: top; */
 }
@@ -141,6 +145,31 @@ h1 {
   stroke-miterlimit: 10;
   stroke-width: 12px
 }
+
+.ring1:hover {
+  stroke: #3e76ec;  /* blue */
+  transition: ease 1s;
+}
+.ring2:hover {
+  stroke: #000000;  /* black */
+  transition: ease 1s;
+}
+.ring3:hover {
+  stroke: #ff0000;  /* red */
+  transition: ease 1s;
+}
+.ring4:hover {
+  stroke: #ffce01;  /* yellow */
+  transition: ease 1s;
+}
+.ring5:hover {
+  stroke: #179a13;  /* green */
+  transition: ease 1s;
+}
+
+/* #fuji {
+  stroke: black;
+} */
 
 
 /*
