@@ -4,11 +4,43 @@
     <meta charset="UTF-8"/>
     <title>Tokyo Olympics 1964</title>
     <link href="https://db.onlinewebfonts.com/c/74fc282ac1937b053f409b3b70eb1bb6?family=Helvetica" rel="stylesheet" type="text/css"/>
+    <script type="text/javascript">
+      // function fadeOut() {
+      //   const fujisun = document.getElementById("fujisun1");
+      //   fujisun.style.opacity=0;
+      // }
+
+      // var h1 = document.querySelector('h1')
+      // .addEventListener('click', move);
+      //
+      // function move(event) {
+  	  // this.classList.toggle('move');
+      // }
+
+
+    </script>
     <link rel="stylesheet" href="poster-styles.css"/>
     <meta content="width=device-width, initial-scale=1" name="viewport" />
   </head>
+  <style>
+  svg.fuji {
+  }
+  </style>
 
   <body>
+    <script>
+    function fadeOut(el){
+    	var elem = document.getElementById(el);
+    	elem.style.transition = "opacity 0.5s linear 0s";
+    	elem.style.opacity = 0;
+    }
+    function fadeIn(el){
+    	var elem = document.getElementById(el);
+    	elem.style.transition = "opacity 0.5s linear 0s";
+    	elem.style.opacity = 1;
+
+    }
+    </script>
 
     <div class="wrapper">
       <div id="showcase1" class="box1">
@@ -52,12 +84,10 @@
           </g>
         </svg> -->
 
-        <svg class="fujisun" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 431.8 431.82">
 
-          <svg class="fuji" xmlns="http://www.w3.org/2000/svg" viewBox="0 -40 430 1">
-            <title>
-              Fuji
-            </title>
+        <svg class="fujisun" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 431.8 431.82" onclick="fadeOut('fuji2');">
+
+          <svg class="fuji" id="fuji2" xmlns="http://www.w3.org/2000/svg" viewBox="0 -40 430 1">
             <g data-name="Fuji">
               <g>
                 <polygon points="0 101.33 111.15 68.93 154.35 45.46 203.61 7.05 224.04 5.94 230.35 2.31 234.93 5.94 304 53 337.05 70.04 406.98 94.28 424.9 91.87 442.09 97.11 442.07 171.49 0 171.49 0 101.33" fill="#37458c"/>
@@ -68,7 +98,6 @@
 
               <clipPath id="clipCircle">
               <circle class="mobiel-circle" cx="215.91" cy="215.91" r="315.91" fill="#db3742"/>  <!-- 215.91" cy="215.91" r="215.91 -->
-
               <clipPath>
         </svg>
 
