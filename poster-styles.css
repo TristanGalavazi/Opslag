@@ -180,12 +180,6 @@ background-color: #db3742;
 transition: opacity 2s;
 }
 
-.mobiel-cirle2 {
-  stroke:#fff;
-  fill:green;
-  fill-opacity:1;
-  stroke-opacity:0;
-}
 
 /* .box1 {
     margin-top: 0px;
@@ -280,14 +274,6 @@ transition: opacity 2s;
   100% {right: 0px;}
 }
 
-/* .animate {
-	animation: fadeIn;
-}
-
-@keyframes fadeIn {
-0% {opacity: 0;}
-100% {opacity: 1;}
-} */
 
 
 
@@ -346,7 +332,7 @@ div:focus {   /* alleen met link: <a href="#">
 color: green'
 }
 
-.animatie {
+.animate {
   background: green;
 }
 
