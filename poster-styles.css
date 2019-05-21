@@ -150,27 +150,27 @@ body {
 .ring1:hover {
   stroke: #3e76ec;  /* blue */
   r: 50px;
-  transition: ease 1s;
+  transition: ease-in-out 1s;
 }
 .ring2:hover {
   stroke: #000000;  /* black */
   r: 50px;
-  transition: ease 1s;
+  transition: ease-in-out 1s;
 }
 .ring3:hover {
   stroke: #ff0000;  /* red */
   r: 50px;
-  transition: ease 1s;
+  transition: ease-in-out 1s;
 }
 .ring4:hover {
   stroke: #ffce01;  /* yellow */
   r: 50px;
-  transition: ease 1s;
+  transition: ease-in-out 1s;
 }
 .ring5:hover {
   stroke: #179a13;  /* green */
   r: 50px;
-  transition: ease 1s;
+  transition: ease-in-out 1s;
 }
 
 .ring1 {
@@ -551,12 +551,16 @@ to { top: 200px;}
   left: 25px;
   width: 70px; */
 }
-
 #picto1.pictostyle {
   opacity: 1;
   transition: ease-in-out 0.8s;
+  /* -webkit-animation: shake1 3s linear infinite both;
+	animation: shake1 3s linear infinite both; */
+}
+
+.pictoanimate {
   -webkit-animation: shake1 3s linear infinite both;
-	animation: shake1 3s linear infinite both;
+  animation: shake1 3s linear infinite both;
 }
 
 @-webkit-keyframes shake1 {
@@ -661,25 +665,28 @@ to { top: 200px;}
 
 #picto1:hover {
   fill: #3e76ec;  /* blue */
-  transition: ease 0.5s;
+  transition: ease-in-out 0.5s;
 }
 #picto2:hover {
   fill: #000000;  /* black */
-  transition: ease 0.5s;
+  transition: ease-in-out 0.5s;
 }
 #picto3:hover {
   fill: #ff0000;  /* red */
-  transition: ease 0.5s;
+  transition: ease-in-out 0.5s;
 }
 #picto4:hover {
   fill: #ffce01;  /* yellow */
-  transition: ease 0.5s;
+  transition: ease-in-out 0.5s;
 }
 #picto5:hover {
   fill: #179a13;  /* green */
-  transition: ease 0.5s;
+  transition: ease-in-out 0.5s;
 }
 
+use .bw:focus {
+
+}
 
 /*  Animatie/Hover/Transform/Javascript(clicks) voorbeelden)
 
