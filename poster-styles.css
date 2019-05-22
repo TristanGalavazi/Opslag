@@ -150,27 +150,27 @@ body {
 .ring1:hover {
   stroke: #3e76ec;  /* blue */
   r: 50px;
-  transition: ease-in-out 1s;
+  transition: ease-in-out 0.5s;
 }
 .ring2:hover {
   stroke: #000000;  /* black */
   r: 50px;
-  transition: ease-in-out 1s;
+  transition: ease-in-out 0.5s;
 }
 .ring3:hover {
   stroke: #ff0000;  /* red */
   r: 50px;
-  transition: ease-in-out 1s;
+  transition: ease-in-out 0.5s;
 }
 .ring4:hover {
   stroke: #ffce01;  /* yellow */
   r: 50px;
-  transition: ease-in-out 1s;
+  transition: ease-in-out 0.5s;
 }
 .ring5:hover {
   stroke: #179a13;  /* green */
   r: 50px;
-  transition: ease-in-out 1s;
+  transition: ease-in-out 0.5s;
 }
 
 .ring1 {
@@ -681,9 +681,19 @@ to { top: 200px;}
   transition: ease-in-out 0.5s;
 }
 
-use .bw:focus {
-
+.textgradient:active {
+	background-image: -webkit-linear-gradient(95deg, #3e76ec, #ff0000, #ffce01, #179a13);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	-webkit-animation: gradient 10s infinite linear;
 }
+
+@-webkit-keyframes gradient {
+  from {-webkit-filter: hue-rotate(0deg);}
+  to {-webkit-filter: hue-rotate(-360deg);}
+}
+
+
 
 /*  Animatie/Hover/Transform/Javascript(clicks) voorbeelden)
 
