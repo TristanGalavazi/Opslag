@@ -40,12 +40,12 @@ body {
   .headers2 {
     display: none;
   }
-  .iconstyle-mobiel {
+  /* .iconstyle-mobiel {
     display: none;
   }
   .iconstyle-mobiel2 {
     display: none;
-  }
+  } */
 }
 @media screen and (max-width: 425px) {
 
@@ -105,12 +105,12 @@ body {
     left: 27vw;
     fill: #a88556;
   }
-  #iconstyle {
+  /* #iconstyle {
     display: none;
   }
   #iconstyle2 {
     display: none;
-  }
+  } */
 }
 
 /* @media screen and (min-width: 321px) and (max-width: 375px)  {
